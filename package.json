@@ -1,0 +1,26 @@
+{
+  "name": "personal-budget",
+  "version": "1.0.0",
+  "description": "Create a personal budget using the envelope system.",
+  "homepage": "https://github.com/andersonhall/personal-budget#readme",
+  "bugs": {
+    "url": "https://github.com/andersonhall/personal-budget/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersonhall/personal-budget.git"
+  },
+  "license": "ISC",
+  "author": "Andy Hall",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node --watch server"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {}
+}
